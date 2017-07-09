@@ -1,0 +1,14 @@
+{
+  "preset": "crockford", // https://github.com/jscs-dev/node-jscs/blob/master/presets/crockford.json
+
+  "validateIndentation": 2,
+  "validateQuoteMarks": "'",
+  "requireMultipleVarDecl": null,
+  "requireVarDeclFirst": false,
+  "requireCamelCaseOrUpperCaseIdentifiers": true,
+  "disallowKeywordsOnNewLine": null,
+  "requireKeywordsOnNewLine": ["else"],
+  "requireBlocksOnNewline": 1,
+  "disallowDanglingUnderscores": null,
+  "disallowSpacesInCallExpression": true
+}
