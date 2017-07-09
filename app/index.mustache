@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="cuteApp" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuteme</title>
+
+    <!--<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+    {{#thirdPartyCss}}
+      <link rel="stylesheet" href="{{#stripBase}}{{{.}}}{{/stripBase}}"/>
+    {{/thirdPartyCss}}
+    <link rel="stylesheet" href="{{{appCss}}}"/>
+</head>
+<body ng-controller="mainController">
+    <!--<div ng-controller="headerController">-->
+        <ct-header></ct-header>
+        <!--<ct-cuteme-component></ct-cuteme-component>-->
+    <!--</div>-->
+    {{=<% %>=}}
+    <!--<div ui-view></div>-->
+    <ui-view></ui-view>
+    <!--<div  class="container">
+        <h2>{{message}}</h2>
+    </div>-->
+    <%={{ }}=%>
+    <footer>
+
+    </footer>
+
+
+  {{#thirdPartyScripts}}
+    <script src="{{#stripBase}}{{{.}}}{{/stripBase}}"></script>
+  {{/thirdPartyScripts}}
+  {{#appScripts}}
+    <script src="{{#stripBase}}{{{.}}}{{/stripBase}}"></script>
+  {{/appScripts}}
+
+</body>    
+</html>

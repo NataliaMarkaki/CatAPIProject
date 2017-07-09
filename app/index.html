@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="cuteApp" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuteme</title>
+
+    <!--<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <link rel="stylesheet" href="app.css"/>
+</head>
+<body ng-controller="mainController">
+    <!--<div ng-controller="headerController">-->
+        <ct-header></ct-header>
+        <!--<ct-cuteme-component></ct-cuteme-component>-->
+    <!--</div>-->
+    <!--<div ui-view></div>-->
+    <ui-view></ui-view>
+    <!--<div  class="container">
+        <h2>{{message}}</h2>
+    </div>-->
+    <footer>
+
+    </footer>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="app.js"></script>
+    <script src="components/cute-item/cute-item.js"></script>
+    <script src="components/header/header.js"></script>
+    <script src="components/services/get-animals-local-storage/get-animals-local-storage.js"></script>
+    <script src="components/services/mycat-api/mycat-api.js"></script>
+    <script src="components/services/store-animal-local-storage/store-animal-local-storage.js"></script>
+    <script src="pages/cuteme/cuteme.js"></script>
+    <script src="pages/mycuties/mycuties.js"></script>
+    <script src="components/cute-item/cute-item-component.js"></script>
+    <script src="components/header/header-directive.js"></script>
+    <script src="components/services/get-animals-local-storage/get-animals-local-storage-service.js"></script>
+    <script src="components/services/mycat-api/mycat-api-service.js"></script>
+    <script src="components/services/store-animal-local-storage/store-animals-local-storage-service.js"></script>
+    <script src="pages/cuteme/cuteme-component.js"></script>
+    <script src="pages/mycuties/mycuties-component.js"></script>
+
+</body>    
+</html>
