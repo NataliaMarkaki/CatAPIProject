@@ -1,0 +1,11 @@
+<div>
+   <div class="img-container">
+        <img class="cat-img" ng-src="{{cuteMeCtrl.animal.image}}"/>
+        <input type="text" placeholder="Name Me" class="form-control" ng-model="cuteMeCtrl.animal.title">
+   </div>
+    <div class="ct-btn-group">
+        <button type="button" ng-click="cuteMeCtrl.like()" class="btn btn-success col-sm-2">Like</button>
+        <button type="button" ng-click="cuteMeCtrl.dislike()" class="btn btn-danger col-sm-2">Dislike</button>
+        <button type="button" ng-click="cuteMeCtrl.skip()" class="btn btn-default col-sm-2">Skip</button>
+    </div>
+</div>
