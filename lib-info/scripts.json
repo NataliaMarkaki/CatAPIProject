@@ -1,0 +1,22 @@
+[
+    {
+        "name": "angular",
+        "path": "app/bower_components/angular/angular.js"
+    },
+    {
+        "name": "angular-ui-router",
+        "path": "app/bower_components/angular-ui-router/release/angular-ui-router.js"
+    },
+    {
+        "name": "angular-resource",
+        "path": "app/bower_components/angular-resource/angular-resource.js"
+    },
+    {
+        "name": "jquery",
+        "path": "app/bower_components/jquery/dist/jquery.js"
+    },
+    {
+        "name": "bootstrap",
+        "path": "app/bower_components/bootstrap/dist/js/bootstrap.js"
+    }         
+]
